@@ -1,0 +1,27 @@
+@keyframes color-change {
+    0% {
+      color: rgb(63, 63, 151);
+    }
+  
+    50% {
+      color: rgb(248, 232, 0);
+    }
+  
+    100% {
+      color: rgb(149, 149, 211);
+    }
+}
+
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #b4e9d8; /* Warna latar belakang laman web */
+    color: #000000; /* Warna teks */ 
+}
+h1 {
+    color: #00a800; /* Warna tajuk (header)*/
+    font-size: 24px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+
+h1:hover { animation: color-change 3s infinite; }
